@@ -1,5 +1,3 @@
-![âPngtreeâpure stage banner background_976453](https://user-images.githubusercontent.com/97165359/171340263-21df96d7-def2-4ec8-98bb-85408456122e.png)
-
 <img width="1440" alt="스크린샷 2022-06-06 오후 8 57 44" src="https://user-images.githubusercontent.com/97348375/172156376-1c7332a2-86a4-465a-947a-526c6e87e355.png">
 
 
