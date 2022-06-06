@@ -576,3 +576,15 @@
 
 ## 기타
 [1] 사진 출처: https://pngtree.com/free-backgrounds
+
+[2] 정보 출처: https://www.youtube.com/watch?v=Hj4w4jukm4U
+
+[3] 정보 출처: https://www.youtube.com/watch?v=b3tjkUeAVa8
+
+[4] 정보 출처: https://www.youtube.com/watch?v=y1VVvnzQIx4
+
+[5] 정보 출처: https://www.youtube.com/watch?v=rFADkXWicBE
+
+[6] 정보 출처: https://www.youtube.com/watch?v=D6_hBNgEyeE
+
+[7] 정보 출처: https://brunch.co.kr/@campuscine21/72
