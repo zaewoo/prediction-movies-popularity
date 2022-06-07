@@ -551,7 +551,7 @@
 - **Zombieland**, 그리고 **Creed**는 현지 기준 총 $100m 이상의 매출을 기록한 영화입니다.
 - 현지에서 백만 이상의 관객을 동원한 영화는 일반적으로 $100m 이상의 매출을 기록하였습니다. 그러므로 학습 모델의 예측이 적합하다고 보았습니다. 
 - **XGBoost**, 그리고 **GradientBoost** 모두 비슷한 예측 값을 보여주었습니다. 그 중에서도 **XGBoost**는 보다 보수적인 예측 값을 보였습니다.
-- 영화 산업은 **High Risk, High Return**에 속하는 산업군이기 때문에 보다 보수적인 모델이 적합할 것으로 생각했습니다.
+- 영화 산업은 **고위험 산업군**에 속하므로 영화 배급·수입사 측면에서는 보수적인 모델이 적합할 것으로 생각했습니다.
 
 ## 참고
 [1] Seonghyeon Jeona, Young Sook Sona(2016). Prediction of box office using data mining. The Korean Journal of Applied Statistics (2016), 29(7), 1257–1270.
