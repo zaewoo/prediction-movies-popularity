@@ -385,14 +385,14 @@
 
 ||Parameters|Trial 1|Trial 2|Trial 3|Trial 4|Trial 5|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|LogisticRegression|solver = liblinear|0.53722|0.52008|0.47894|0.49314|0.48041|
-|DecisionTree|max_depth = 8|0.47062|0.72037|0.72821|0.72821|0.72282|
-|RandomForest|n_estimators = 100|0.52791|0.73213|0.73653|0.73115|0.73213|
-|LGBM|-|-|0.73457|0.72919|0.71792|0.73310|
-|GradientBoosting|n_estimators = 100, learning_rate = 0.01, max_depth = 4|-|-|0.75465|0.73996|0.75367|
-|GridSearchCV|n_estimators = 100, learning_rate = 0.01, max_depth = 4|-|-|0.75465|0.74290|0.74878|
-|XGBoost|n_estimators = 200, learning_rate = 0.01, max_depth = 3|-|-|0.75171|0.73115|0.75122|
-|AdaBoost|n_estimators = 200, learning_rate = 0.01, max_depth = 3|-|-|0.72086|0.66846|0.70568|
+|LogisticRegression|solver = liblinear|0.51469|0.49608|0.46082|0.45935|0.45446|
+|DecisionTree|max_depth = 8|0.46474|0.74535|0.75465|0.73947|0.74780|
+|RandomForest|n_estimators = 100|0.50930|0.74780|0.74878|0.74878|0.74339|
+|LGBM|-|-|0.74486|0.73898|0.73359|0.73800|
+|GradientBoosting|n_estimators = 200, learning_rate = 0.01, max_depth = 4|-|-|0.75759|0.75465|0.75563|
+|GridSearchCV|n_estimators = [100, 300], learning_rate = [0.01, 0.1], cv = 2|-|-|0.75171|0.75612|0.75024|
+|XGBoost|n_estimators = 200, learning_rate = 0.01, max_depth = 3|-|-|0.75220|0.75269|0.75416|
+|AdaBoost|n_estimators = 200, learning_rate = 0.01, base_estimator = DecisionTree|-|-|0.73604|0.71596|0.72919|
 
 </br>
 
@@ -405,8 +405,8 @@
     
 ||LogisticRegression|DecisionTree|RandomForest|LBGM|
 |--|--|--|--|--|
-|Train Accuracy|0.84005|0.51973|0.99979|-|
-|Test Accuracy|0.53722|0.47062|0.52791|-|
+|Train Accuracy|0.86902|0.51050|0.99979|-|
+|Test Accuracy|0.51469|0.46474|0.50930|-|
     
 </div>
 
@@ -424,8 +424,8 @@
     
 ||LogisticRegression|DecisionTree|RandomForest|LBGM|
 |---|---|---|---|---|
-|Train Accuracy|0.52330|0.80877|0.99979|0.99979|
-|Test Accuracy|0.52008|0.72037|0.73213|0.73457|
+|Train Accuracy|0.49748|0.82011|0.99979|0.99979|
+|Test Accuracy|0.49608|0.74535|0.74780|0.74486|
 </div>
 
 </br>
@@ -442,8 +442,8 @@
     
 ||LogisticRegression|DecisionTree|RandomForest|LBGM|GradientBoost|GridSearchCV|XGBClassifier|AdaBoost|
 |---|---|---|---|---|---|---|---|---|
-|Train Accuracy|0.52330|0.80877|0.99979|0.99979|0.79219|0.79219|0.76406|0.96012|
-|Test Accuracy|0.52008|0.72037|0.73213|0.73457|0.75465|0.75465|0.75171|0.72086|
+|Train Accuracy|0.46704|0.81150|0.99979|0.99979|0.82347|0.80416|0.79975|0.96851|
+|Test Accuracy|0.46082|0.75465|0.74878|0.73898|0.75759|0.75171|0.75220|0.73604|
     
 </div>
 
@@ -461,8 +461,8 @@
     
 ||LogisticRegression|DecisionTree|RandomForest|LBGM|GradientBoost|GridSearchCV|XGBClassifier|AdaBoost|
 |---|---|---|---|---|---|---|---|---|
-|Train Accuracy|0.50567|0.78820|0.99979|0.99979|0.78212|0.82599|0.75315|0.93220|
-|Test Accuracy|0.49314|0.72821|0.73115|0.71792|0.73996|0.74290|0.73115|0.66846|
+|Train Accuracy|0.46558|0.80877|0.99979|0.99979|0.81843|0.83312|0.78380|0.95403|
+|Test Accuracy|0.45935|0.73947|0.74878|0.73359|0.75465|0.75612|0.75269|0.71596|
     
 </div>
 
@@ -480,8 +480,8 @@
     
 ||LogisticRegression|DecisionTree|RandomForest|LBGM|GradientBoost|GridSearchCV|XGBClassifier|AdaBoost|
 |---|---|---|---|---|---|---|---|---|
-|Train Accuracy|0.49874|0.80584|0.99979|0.99979|0.78212|0.82599|0.75315|0.93220|
-|Test Accuracy|0.48041|0.72282|0.73213|0.73310|0.75367|0.74878|0.75122|0.70568|
+|Train Accuracy|0.47103|0.81297|0.99979|0.99979|0.82494|0.80353|0.79912|0.96620|
+|Test Accuracy|0.45446|0.74780|0.74339|0.73800|0.75563|0.75024|0.75416|0.72919|
     
 </div>
 
@@ -500,9 +500,9 @@
     
 ||LogisticRegression|DecisionTree|RandomForest|LBGM|GradientBoost|GridSearchCV|XGBClassifier|AdaBoost|
 |---|---|---|---|---|---|---|---|---|
-|Trial 3|0.47894|0.72820|0.73653|0.72919|0.75465|0.75465|0.75171|0.72086|
-|Trial 4|0.49314|0.72821|0.73115|0.71792|0.73996|0.74290|0.73115|0.66846|
-|Trial 5|0.48041|0.48041|0.73213|0.73310|0.75367|0.74878|0.75122|0.70568|
+|Trial 3|0.46082|0.75465|0.74878|0.73898|0.75759|0.75171|0.75220|0.72919|
+|Trial 4|0.45935|0.73947|0.74878|0.73359|0.75465|0.75612|0.75269|0.71596|
+|Trial 5|0.45446|0.74780|0.74339|0.73800|0.75563|0.75024|0.75416|0.72919|
     
 </div>
 
