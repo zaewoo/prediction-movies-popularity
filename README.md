@@ -1,5 +1,4 @@
-<img width="1440" alt="스크린샷 2022-06-06 오후 8 57 44" src="https://user-images.githubusercontent.com/97348375/172156376-1c7332a2-86a4-465a-947a-526c6e87e355.png">
-
+![스크린샷 2022-06-16 오후 9 20 07](https://user-images.githubusercontent.com/97348375/174068412-396e14be-9362-4647-a800-1bac5f244c55.png)
 
 <div align="Right">
     진행 기간: 2022.05.20-2022.05.26
