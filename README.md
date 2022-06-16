@@ -567,7 +567,8 @@
 
 </br>
 
-<img width="1768" alt="image" src="https://user-images.githubusercontent.com/97348375/174068969-14abb855-d990-4369-89e7-70306efccb56.png">
+<img width="1631" alt="image" src="https://user-images.githubusercontent.com/97348375/174069172-17c2e3c7-add0-4228-9091-33420e5139c8.png">
+
 
 세계적으로 저명한 영화 감독은 학습 모델의 정확도가 상대적으로 낮습니다. 그 이유에 대해서는 다음과 같이 생각해 보았습니다.
 
